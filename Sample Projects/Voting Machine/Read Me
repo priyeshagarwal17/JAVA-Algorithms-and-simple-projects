@@ -1,0 +1,10 @@
+Voting Machine
+Implement a VotingMachine class that can be used for a simple election. Voting Machine has two data field variables to hold votes were cast for each party. There is only one default constructor for this object. Make sure to have methods to count individual vote and also set methods for both data field variables.There should be a method to reset the voting machine and a method to get the tallies for both parties. 
+Then write an application java class to create one object VotingMachine. First update the initial count for each party then, ask the user if the initial count is valid for final count. User input is either 0 or 1. Input 0 means ignore initial counts and input 1 means consider initial counts. Then 4 individuals were cast their vote as 
+democrats 
+democrats 
+republican 
+democrats 
+then display the turnout on the console. 
+
+Important note: You need to create two java classes for this project. One is the Object class VotingMachine and the second one should be the application java class that creates one instance of VotingMachine. When you are done make a zip file of these two files and submit for grading.
