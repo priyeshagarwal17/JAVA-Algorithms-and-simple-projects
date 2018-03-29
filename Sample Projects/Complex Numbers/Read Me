@@ -1,0 +1,29 @@
+Complex Numbers
+Objective
+Tin this assignment you will create an object for complex numbers. You will need to use two files for this assignment: Complex.java and Main.java. Make a zip file of these two java codes and submit them through auto grader. 
+
+Complex Numbers
+This section is a (brief!) review of complex numbers. If you are already familiar with complex numbers, you can safely skip this section. 
+i is defined as the square root of -1. Armed with i, one can take the square root of any negative number: the square root of -4 is 2i, as 2i*2i is 4i^2, and since i^2=-1, 4i^2=-4. One can start adding i to regular numbers as well: for example, 1+i. Thus, a number can have a real part and a complex part. Consider 3+2i. This is the normal number 3, and to that is added two times i. Such number are called complex numbers, and are the subject of this Assignment. A complex number has a real part (the normal number system we are used to) and a complex part (a multiple of i). 
+Complex numbers can also be used to represent a 2-dimensional coordinate system. The real part is the x coordinate, and the imaginary part is the y coordinate. Because the x coordinate is the real numbers, the x axis is called the real axis. Similarly with the y axis: it is called the imaginary axis. The standard operations that one can do on regular (x,y) coordinates can also be done on complex numbers. 
+
+The Complex class
+The class has two data field variables: 
+
+- realPart; 
+- imaginaryPart; 
+These numbers represent the real and imaginary parts of the complex number. For example, to represent 2+3i, realPart would be 2.0 and imaginaryPart would be 3.0. 
+There are a number of methods defined: 
+- Complex (double r, double i): A specific constructor, it creates the complex object by setting the two fields to the passed values.
+- getRealPart(): This method returns the real part of the complex number
+- getImaginaryPart(): This method returns the imaginary part of the complex number
+- add (Complex otherNumber): This method will find the sum of the current complex number and the passed complex number. The methods returns a new Complex number which is the sum of the two. 
+- subtract (Complex otherNumber): This method will find the difference of the current complex number and the passed complex number. The methods returns a new Complex number which is the difference of the two. 
+- multiply (Complex otherNumber): This method will find the product of the current complex number and the passed complex number. The methods returns a new Complex number which is the product of the two.
+- divide (Complex otherNumber): This method will find the quotient of the current complex number and the passed complex number. The methods returns a new Complex number which is the quotient of the two. (we will talk about this method in class) 
+- setRealPart (double towhat): Used to set the real part of this complex number.
+- setImaginaryPart (double towhat): Used to set the imaginary part of this complex number.
+- toString(): This method allows the complex number to be easily printed out to the screen. 
+
+The Main class – Application java class
+This class just has the main() method. It's purpose is to use the Complex class. This program prompts the user to enter real and imaginary parts of the complex number. 
