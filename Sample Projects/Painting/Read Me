@@ -1,0 +1,14 @@
+Create a class named Painting that contains fields for a painting’s title, artist, medium (such as water color), price,
+and gallery commission. 
+Create a constructor that initializes each field to an appropriate default value,
+and create instance methods that get and set the fields for title, artist, medium, and price. 
+The gallery commission field cannot be set from outside the class; 
+it is computed as 20 percent of the price each time the price is set.
+Save the class as Painting.java.
+
+
+Create a class named TestPainting whose main() method declares three Paintingitems.
+Create a method that prompts the user for and accepts values for two of the Painting objects,
+and leave the third with the default values supplied by the constructor. 
+Then display each completed object. 
+Finally, display a message that explains the gallery commission rate. Save the application as TestPainting.java.
