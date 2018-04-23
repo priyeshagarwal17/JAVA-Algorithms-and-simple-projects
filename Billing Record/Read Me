@@ -1,0 +1,16 @@
+Define a class Person that holds person's name and appropriate constructors, get/set methods, display and hasSameName methods. 
+hasSameName method will return true if two objects of data type Person have the same name. 
+
+
+Then define a class named Doctor whose objects are records for a clinic's doctors. 
+Drive this class from the class Person. 
+A Doctor record has doctor's name, a specialty, and office visit fee. 
+Give your class a reasonable complement of constructors and get/set methods, and an equals method as well. 
+The equals method returns true if two doctor records are the same. 
+
+Drive Patient form the class Person.
+ A patient record has the Patient's name, and an identification number. 
+Patietn class has method equals. 
+
+A Billing object will contain a Patient object and a Doctor object. 
+Give your class a reasonable complement of constructors, get/set methods, display and an equals method. 
